@@ -1,0 +1,52 @@
+﻿Javascript Engine/ Javascript Virtual Machine: 
+
+
+   * (software ?) Which makes computers (machine language e.g. 01010111) to understand programming language
+   * Resides in computer browser
+   * The lines of codes /snippet which we write/ run first go to js engine, then there they are compiled (conversion to machine language and run in browser or machine)
+   * Different browsers use different JS engines. Their functions may differ
+[from now on JS engine will be referred as JS VM]
+
+
+Names of different JS VMs:
+
+
+   * V8 for Google Chrome and Opera [chrome://version to check the VM version (JavaScript: v8 10.7.193.22)]  
+	Why know about the version of js VM? 
+	→ to find out the problems that are not supported by the versions of js VM.
+   * SpiderMonkey for Mozilla Firefox
+   * Chakra for Internet Explorer
+   * Chakra core for Microsoft Edge
+   * Nitro and Squirrelfish for Safari
+
+
+How does the JS VM work?
+
+
+→When a web page is loaded in the browser, VM gets the request/ codes which we wrote, VM converts them to machine code then the machine code and gets executed in the browser.
+
+
+What can we do with javascript?
+
+
+JS has evolved with the time. Now it’s no longer bound by the browser only, we can write codes for the server side and even make a mobile application. 
+   * Management of the client side of a website.
+   * Write server side programs
+   * Mobile app development
+
+
+What can JS do in browsers?
+
+
+   * Dynamically create elements/ tags for web pages
+   * Change contents of elements
+   * Css replace
+   * Data store in client side
+   * Data store with cookie
+
+
+Frameworks/ libraries/ languages built based on JS:
+
+
+   * Angular js, vue js, react js
+   * Typescript, dart
