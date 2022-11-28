@@ -1,0 +1,6 @@
+** When external js files are used, browsers store them (in cache).
+** Then the js scripts are run from cache.
+** If page is reloaded, then js scripts run from cache memory. Thus it becomes faster.
+** Users can call multiple js files.
+** If multiple pages include the same js file, then on load one web page, the js file is stored to browser cache.
+If other file is loaded then the js is called from the browser cache.
