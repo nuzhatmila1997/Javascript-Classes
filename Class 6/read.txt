@@ -1,0 +1,7 @@
+~Statement~
+
+** Each line is a statement.
+** In js statements are separated by semi-colon (;) [best practice]
+** Modern js supports code execution without ";" after each line
+** VM detects statements and separates them based on newline
+** If next line starts with "[", then it will get an error if previous statement doesn't have ";"
