@@ -1,0 +1,16 @@
+~JS Strict Mode~
+
+** Used in modern JS.
+** To strictly verify by VMs (e.g., v8)
+** Used to invalid usage of variables.
+** The statement 'use strict' has to be written in the very first line of JS file.
+Otherwise the file won't be considered to execute strictly by the VM.
+** If run in strict mode, it will not execute if a variable is defined without declaration. E.g.,
+        name = "Mila";
+        alert(name); 
+    ## The above lines of code will be execute if 'use strict' statement is not written
+
+        'use strict';
+         name = "Mila";
+         alert(name); 
+    ## The above lines of code will not execute because v8 is running js on strict mode

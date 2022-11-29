@@ -1,0 +1,25 @@
+~Variables~
+
+** To store any kind of information or data
+** A variable cannot store more than one value. If assigned to new value, previous data gets lost.
+** Variable names can have letters ([a-z/A-Z]), numbers(0-9) and some specific special characters ($,_).
+    → Cannot start with numbers. [e.g. 1name → invalid, name1 → valid]
+    → Best way to declare variables is to use Camel Case. [e.g. myName]
+** Variables are case sensitive. [myname and myName are two different variables]
+** Reserved keywords are not allowed to be used as var name [e.g. let, if, for, while etc.]
+** Variable Declaration Syntax: let x; → it means I created a variable named x. 
+** Define Variable Syntax: x = 5;
+** Declare and Define in the same line syntax: let x=5; [preferred]
+** Multiple variables can be declared and defined in the same line.
+** Alternate variable Declaration Syntax: var x = 5; [previously used. not recommended]
+** If run in strict mode, it will not execute if a variable is defined without declaration. E.g.,
+        name = "Mila";
+        alert(name); 
+    ## The above lines of code will be execute if 'use strict' statement is not written
+
+        'use strict';
+         name = "Mila";
+         alert(name); 
+    ## The above lines of code will not execute because v8 is running js on strict mode
+
+    
