@@ -5,3 +5,5 @@
 ** Modern js supports code execution without ";" after each line
 ** VM detects statements and separates them based on newline
 ** If next line starts with "[", then it will get an error if previous statement doesn't have ";"
+** If line ends with operators (e.g. "+","-") js will not think it is the end of line. 
+It will search for the next operand.
