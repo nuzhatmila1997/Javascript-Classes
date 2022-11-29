@@ -1,0 +1,9 @@
+~Constatnt~
+
+** Keyword const.
+** Best practice is to use all capital and underscore in naming a constant.
+** Constants works like variable but it's cannot be changed. E.g.,
+
+        const X = 5;
+        let y = 6;
+        X = y; → This will cause an error while executing 

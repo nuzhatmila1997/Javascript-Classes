@@ -11,6 +11,11 @@
 ** Define Variable Syntax: x = 5;
 ** Declare and Define in the same line syntax: let x=5; [preferred]
 ** Multiple variables can be declared and defined in the same line.
+** Variable can be assigned as another variable's value. E.g.,
+        let x = 5, y = 6;
+        x = y;
+        alert(x); → This pop up will show 6
+
 ** Alternate variable Declaration Syntax: var x = 5; [previously used. not recommended]
 ** If run in strict mode, it will not execute if a variable is defined without declaration. E.g.,
         name = "Mila";

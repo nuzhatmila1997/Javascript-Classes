@@ -16,6 +16,12 @@ alert(fname);
 fname = "Samiha";
 
 alert(fname);
-middlename = "Nuzhat"; // this type of definition is invalid. It will not execute. Because we have used strict mode here
-alert(middlename);
+/*middlename = "Nuzhat";  // this type of definition is invalid. It will not execute. Because we have used strict mode here
+alert(middlename);*/
+let myName = "Mila";
+alert(myName);
+let mySisName = "Niva";
+myName = mySisName;
+alert(myName);
+
 console.log(fname, lname, nickname);
