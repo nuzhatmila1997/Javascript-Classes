@@ -1,0 +1,7 @@
+~JS Strict Mode~
+
+** Used in modern JS.
+** To strictly verify by VMs (e.g., v8)
+** Used to prohibit multiple usage of variables.
+** The statement "use strict"/ 'use strict' has to be written in the very first line of JS file.
+Otherwise the file won't be considered to execute strictly by the VM.
