@@ -1,0 +1,8 @@
+~Comments~
+
+** Comments are basically statements that do not get executed.
+** Developers usually write comments for describing a block of codes so that it might help other
+developers to understand.
+** Comments can be single line and multiline.
+** Single line comment syntax: "//..."
+** Multiline comment syntax: "/*....*/"
