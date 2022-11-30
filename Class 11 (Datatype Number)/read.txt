@@ -1,0 +1,20 @@
+~Number Data Type~
+
+** JS variables are dynamic type. not static
+    [static means if declared a type, it can't be changed. but for js type declaration isn't needed.]
+** Number type data can be classified as follows:
+    i. Integer (e.g., 250, 15)
+    ii. Float (e.g., 25.25, 15.75)
+    iii. Infinity [special value, greater than every number] (e.g., 25 / 0 = Infinity)
+    iv. NaN [When we try to divide anything that is not a number] (e.g., "hello" / 2 = NaN)
+        # When can the above two scenarios occur?
+         ⇒ If user entries anything that is not number unintentionally.
+
+    v. BigInt [To store larger numbers. Newly added. Not recommended to use]
+         # How will JS know if it's a BigInt?
+         ⇒ Simply put an 'n' after the number. 
+         E.g., 252343870956784356790134679025679065324765879876456709872359999222n
+
+         # Why it is not recommended to use BigInt type?
+         ⇒ 1. We won't be needing such a big number.
+            2. BigInt is not supported by every browser. (e.g., Internet Explorer, Microsoft Edge)
