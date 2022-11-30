@@ -23,7 +23,7 @@ Names of different JS VMs:
 How does the JS VM work?
 
 
-→When a web page is loaded in the browser, VM gets the request/ codes which we wrote, VM converts them to machine code then the machine code and gets executed in the browser.
+→When a web page is loaded in the browser, VM gets the request/ codes which we wrote, VM converts them to machine code then the machine code gets executed in the browser.
 
 
 What can we do with javascript?
