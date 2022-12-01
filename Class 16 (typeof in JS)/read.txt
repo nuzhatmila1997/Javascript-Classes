@@ -1,0 +1,17 @@
+~Typeof~
+
+** Previously we discussed about variables different data types where we could store only one value.
+** These types are called Premitive datatypes.
+** We can check the types of variables by an operator -> typeof. E.g.,
+    # Using type of as functional form:
+        let myName = "Mila";
+        console.log(typeof(myName)); // console will show string [typeof(myName) --> funtional form]
+    
+    # Using operator form:
+        let myName = "Mila";
+        console.log(typeof myName); // console will show string [typeof myName --> operator form]
+
+    # Why use typeof?
+    ⇒ Say, user didn't enter a string type input. Suppose name is assigned to null. In that case typeof name will show object. Thus it can be identified that user has not input the right data.
+    
+
