@@ -1,0 +1,10 @@
+~Unary Plus(+)~
+
+** Unary + also works as a type caster.
+** Casts to number.
+    let num = "2";
+    num = +2;
+    alert(typeof num); --> number
+** +"2" is equivalent to Number("2");
+    let strToNum = +"5" + +"5"; [from left: unary plus, operand, binary plus, unary plus, operand. (euivalent to Number("5")+Number("5"))]
+** In precedence, unary plus in higher. So at first, the strings will be converted to number then addition eill occur.
