@@ -1,0 +1,5 @@
+~ Operand & Operator ~
+
+** 2+5 --> '+' is Operator and 2, 5 are Operands
+** Unary Operator : Operators that have only one operand. [e.g., unary negation-> -5]
+** Binary Operator : Operators that have two operands. +,-,*,/,% [e.g., 7-5]
