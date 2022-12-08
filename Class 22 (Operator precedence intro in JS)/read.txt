@@ -1,0 +1,10 @@
+~Operator Precedence~
+
+** Operator and operands combinely make expression. E.g., 2+3*4
+** If multiple oprators are present in an expression, operations are executed according to the operator priorities/ precedence.
+** Paranthesis (), {}, [] has the highest precedence.
+** Then **
+** Then unary +
+** Then *, /, %
+** Then binary +, -
+*** If same precedence are used --> then left to right 
