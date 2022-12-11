@@ -1,0 +1,9 @@
+~Comma Operator~
+
+** Evaluates all statements, returns the last one.
+        let num = (5+2,7+2);
+        console.log(num); //9
+** Precedence is lower than arithmetic and assignment operators.
+** Paranthesis is mendatory for using comma op. Otherwise if written num = 5+2, 7+2 this way, num will store 7. 
+The reason is, arithmetic + has the highest precedence. So 5+2 will execute first. Then comes = op. 
+So num will store 5+2 = 7. The latter part after comma will not execute.
