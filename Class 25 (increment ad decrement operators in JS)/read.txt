@@ -1,0 +1,16 @@
+~Increment & Decrement Operators~
+
+** Two types: Prefix (++x, --x) and Postfix (x++, x--)
+** Increments/ decrements value by 1
+        let x = 5;
+        x++; // equiv to x = x+1 or x+=1
+        console.log(x); // 6
+** Only to use with variables. Not constants. [5++ is not correct]
+** Precedence is higher than +,-,*,/,%.
+
+***** Difference between ++x, x++ / --x, x--.
+⇒ when inc/dec operators are used in another variable or if we want to work with the return values, x increments/ decrements by 1 immediately for the case of ++x / --x.
+x value doesn’t change immediately, but when the next x is found, then before any operation, x is incremented/ decremented by one first for the case of x++/ x--.
+        let x = 5;
+        let y = x++; 
+        console.log(y); // 5
