@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="js/custom.js"></script>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+    // Display some data from the object:
+    document.getElementById("demo").innerHTML = "The car type is " + car.type + " and car model is " + car["model"];
+    
+    // Display data from the object:
+    document.getElementById("demo1").innerHTML = person.fullName();
+    </script>
+</body>
+</html>
