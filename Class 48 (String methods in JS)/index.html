@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/custom.js"></script>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <p id="demo1">Please visit Microsoft Microsoft!</p>
+    <button onclick="myFunc1()">Try</button>
+    <p id="demo11">Please visit Microsoft Microsoft!</p>
+    <button onclick="myFunc2()">Try</button>
+    <p id="demo12">Please visit Microsoft Microsoft!</p>
+    <button onclick="myFunc3()">Try</button>
+    <p id="demo14"></p>
+    <p id="demo15"></p>
+    <p id="demo16"></p>
+    <p id="demo17"></p>
+    <p id="demo18"></p>
+    <p id="demo19"></p>
+    <p id="demo20">Please visit Microsoft Microsoft!</p>
+    <p id="demo21"></p>
+    <script>
+        let txt = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = txt.slice(7,13) + " [length: " + txt.slice(7,13).length + "]"; // print from 7th to 12th [starts from 0]
+        document.getElementById("demo2").innerHTML = txt.slice(7); // print from 7th to rest [starts from 0]
+        document.getElementById("demo3").innerHTML = txt.substring(7,13);
+        document.getElementById("demo4").innerHTML = txt.substring(7);
+        document.getElementById("demo5").innerHTML = txt.slice(-12); // print from last to 11th 
+        document.getElementById("demo6").innerHTML = txt.slice(-12, -6); // print from last to 11th (from last) to 6th
+        document.getElementById("demo7").innerHTML = txt.substr(7,6); // 7th to {7+(6-1)}th
+        document.getElementById("demo8").innerHTML = txt.substr(-4); //kiwi
+        /* 
+        => substring() is similar to slice(). The difference is that start and end values less than 0 are treated as 0 in substring().
+        => substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.
+        */
+
+        let text1 = "         Hello World         ";
+        document.getElementById("demo14").innerHTML = text1.trim(); // removes whitespace from both sides
+        document.getElementById("demo15").innerHTML = "Length text1.trim() = " + text1.trim().length + "<br>Length text1.trimStart() = " + text1.trimStart().length; // removes whitespace from start only
+        document.getElementById("demo16").innerHTML = text1.trimEnd().length; // removes whitespace from end only
+
+        let txt1 = "5";
+        document.getElementById("demo17").innerHTML = txt1.padStart(4,"0"); // Pad a string with "0" until it reaches the length 4:
+
+        let txt2 = "5";
+        document.getElementById("demo18").innerHTML = txt1.padEnd(4,"x"); // Pad a string with "0" until it reaches the length 4:
+        
+        let txt3 = "HELLO WORLD";
+        document.getElementById("demo19").innerHTML = txt3.charAt(0); // H
+
+        document.getElementById("demo20").innerHTML = txt3.charCodeAt(0); // unicode of the character at a specified index. H --> 72
+        
+        let char = txt3[0]; // access 0th char of string
+
+        // string to array --> split()
+        let txt4 = "a,b,c,d,e,f";
+        const myArray = txt4.split(",");
+        document.getElementById("demo21").innerHTML = myArray[0];
+    </script>
+    
+</body>
+</html>
